@@ -1,0 +1,34 @@
+{
+  "name": "node-guanyi-openapi",
+  "version": "1.0.0",
+  "description": "金蝶管易ERP openAPI Node SDK",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "shx rm -rf lib && tsc",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [],
+  "author": {
+    "url": "https://github.com/ShinChven",
+    "name": "ShinChven ZHANG",
+    "email": "shinchven@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/ShinChven/node-guanyi-openapi.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "superagent": "^8.0.3"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.9",
+    "@types/superagent": "^4.1.14",
+    "mocha": "^10.1.0",
+    "shx": "^0.3.4",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^4.8.4"
+  }
+}
